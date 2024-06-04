@@ -4,7 +4,7 @@
 
 function DBConnect()
 {
-	return new PDO("mysql:host=localhost;dbname=forum;charset=utf8;port=9253", "root", "root");
+	return new PDO("mysql:host=localhost;dbname=forum;charset=utf8;port=3306", "publicuser", "root");
 }
 
 

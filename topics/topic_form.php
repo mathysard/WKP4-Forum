@@ -3,18 +3,13 @@ session_start();
 require_once '../functions.php';
 
 if (isset($_GET["category_id"])) {
-
     $topicsData = selectTopicsById();
-
-    // if ($topicsData == NULL) {
-    //     header("Location: ./c_topic.php?error=18&message=Cette catégorie n'existe pas");
-    // }
 } elseif(isset($_GET["id"])) {
     $topicsData = topicFromId();
 } elseif(isset($_GET["topic_id"])) {
     $topicsData = topicFromIdGetTopic();
 } elseif(!isset($_GET["category_id"])) {
-    // header("Location: ./c_topic.php");
+    header("Location: ./c_topic.php");
 }
 
 

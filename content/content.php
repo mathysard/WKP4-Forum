@@ -3,8 +3,6 @@ require_once './functions.php';
 
 $limit_categories = topicLimit();
 
-
-
 ?>
 
 <div class="bg-gray-100 flex justify-center">

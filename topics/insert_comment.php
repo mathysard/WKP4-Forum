@@ -14,3 +14,4 @@ if (isset($_SESSION["user"])) {
         header("Location: ./read_topic.php?error=15&message=Commentaire vide&id=$id");    
     }
 }
+

@@ -21,8 +21,8 @@ if (isset($_SESSION["user"])) {
     <div class="bg-gray-100 p-8 rounded-md w-full">
         <div class=" flex items-center justify-between pb-6">
             <div>
-                <a href="../categories/category_list.php" class="bg-gray-900 hover:bg-transparent hover:text-gray-900 hover:ring-2 ring-gray-900 duration-300 px-4 py-2 rounded-md text-white font-semibold tracking-wide">Catégories</a>
-                <a href="../topics/topic_list.php" class="bg-gray-900 hover:bg-transparent hover:text-gray-900 hover:ring-2 ring-gray-900 duration-300 px-4 py-2 rounded-md text-white font-semibold tracking-wide">Liste de sujets</a>
+                <a href="../categories/category_list.php" class="bg-gray-900 hover:bg-transparent hover:text-gray-900 hover:ring-2 ring-gray-900 duration-300 px-4 py-2 rounded-md text-white font-semibold tracking-wide">Liste des catégories</a>
+                <a href="../topics/topic_list.php" class="bg-gray-900 hover:bg-transparent hover:text-gray-900 hover:ring-2 ring-gray-900 duration-300 px-4 py-2 rounded-md text-white font-semibold tracking-wide">Liste des sujets</a>
             </div>
             <div class="flex items-center justify-between">
                 <div class="flex bg-gray-50 items-center p-2 rounded-md">

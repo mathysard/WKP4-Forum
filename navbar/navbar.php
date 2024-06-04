@@ -5,7 +5,7 @@ session_start();
 if (isset($_SESSION["user"])) {
 
 
-    $pdo = new PDO("mysql:host=i43l56.myd.infomaniak.com;dbname=i43l56_1AI01_wkp4_db;charset=utf8;port=3306", "i43l56_wkp4", "HEYA-mdAsT8");
+    $pdo = new PDO("mysql:host=localhost;dbname=forum;charset=utf8;port=3306", "publicuser", "root");
 
     $user = $_SESSION["user"];
 
@@ -19,7 +19,7 @@ if (isset($_SESSION["user"])) {
 
     $users = $statement->fetch(PDO::FETCH_ASSOC);
 
-    $pdo = new PDO("mysql:host=i43l56.myd.infomaniak.com;dbname=i43l56_1AI01_wkp4_db;charset=utf8;port=3306", "i43l56_wkp4", "HEYA-mdAsT8");
+    $pdo = new PDO("mysql:host=localhost;dbname=forum;charset=utf8;port=3306", "publicuser", "root");
 
     $sql = "SELECT * FROM roles WHERE id = ?";
 
