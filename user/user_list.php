@@ -61,7 +61,7 @@ if (isset($_SESSION["user"])) {
                     <thead>
                         <tr>
                             <th class="px-5 py-3 border-b-2 border-gray-200 bg-gray-300 text-left text-xs font-semibold text-gray-600 uppercase tracking-wider">
-                                Nom de la catégorie
+                                Nom de l'utilisateur
                             </th>
                             <th class="px-7 py-3 border-b-2 border-gray-200 bg-gray-300 text-left text-xs font-semibold text-gray-600 uppercase tracking-wider">
                                 Date de création
